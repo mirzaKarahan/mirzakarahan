@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mirza KARAHAN</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="description" content="Mirza Karahan Developer, front-end and back-end">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+</head>
+<body id="sayfaBaslangic">
+	<div class="container"  style="background: #2c3e50; color: #fff; padding-top: 50px;">
+		<header>
+			<div class="container merkezle">
+				<figure>
+					<img class="resimProfil" width="30%" src="assets/profil.jpg">
+				</figure>
+				<section>
+					<h1>Mirza KARAHAN</h1>
+				</section>
+				<hr style="background: #fff;">
+				<h2>Web - Desktop - Android Developer - CGI</h2>
+			</div>
+		</header>
+		<!-- Portfolio Başlangıç -->
+		<section id="portfolio">
+			<div id="container">
+				<div id="content">
+					<div class="skillbar clearfix " data-percent="70%">
+						<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+						<div class="skillbar-bar" style="background: #e67e22;"></div>
+						<div class="skill-bar-percent">70%</div>
+					</div> 
+					<!-- HTML Biter -->
+					<div class="skillbar clearfix " data-percent="25%">
+						<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+						<div class="skillbar-bar" style="background: #3498db;"></div>
+						<div class="skill-bar-percent">25%</div>
+					</div> 
+					<!-- CSS Biter -->
+					<div class="skillbar clearfix " data-percent="50%">
+						<div class="skillbar-title" style="background: #f7df1e;"><span>Javascript</span></div>
+						<div class="skillbar-bar" style="background: #f7df1e;"></div>
+						<div class="skill-bar-percent">50%</div>
+					</div>
+					<!-- Javascript Biter -->
+					<div class="skillbar clearfix " data-percent="40%">
+						<div class="skillbar-title" style="background: #234b6c;"><span>Python</span></div>
+						<div class="skillbar-bar" style="background: #234b6c;"></div>
+						<div class="skill-bar-percent">40%</div>
+					</div> 
+					<!-- Python Biter -->
+					<div class="skillbar clearfix " data-percent="25%">
+						<div class="skillbar-title" style="background: #7b3399;"><span>C#</span></div>
+						<div class="skillbar-bar" style="background: #7b3399;"></div>
+						<div class="skill-bar-percent">25%</div>
+					</div> 
+					<!-- C# Biter -->
+					<div class="skillbar clearfix " data-percent="50%">
+						<div class="skillbar-title" style="background: #ea2d2f;"><span>Java</span></div>
+						<div class="skillbar-bar" style="background: #ea2d2f;"></div>
+						<div class="skill-bar-percent">50%</div>
+					</div> 
+					<!-- Java Biter -->
+					<div class="skillbar clearfix " data-percent="35%">
+						<div class="skillbar-title" style="background: #6181b6;"><span>PHP</span></div>
+						<div class="skillbar-bar" style="background: #6181b6;"></div>
+						<div class="skill-bar-percent">35%</div>
+					</div> 
+					<!-- PHP Biter -->
+					<div class="skillbar clearfix " data-percent="15%">
+						<div class="skillbar-title" style="background: #f06637;"><span>Laravel</span></div>
+						<div class="skillbar-bar" style="background: #f06637;"></div>
+						<div class="skill-bar-percent">15%</div>
+					</div> 
+					<!-- Laravel Biter -->
+					<div class="skillbar clearfix " data-percent="65%">
+						<div class="skillbar-title" style="background: #012935;"><span>Unity</span></div>
+						<div class="skillbar-bar" style="background: #012935;"></div>
+						<div class="skill-bar-percent">65%</div>
+					</div> 
+					<!-- Unity Biter -->
+			</div>
+		</section>	
+		<!-- Portfolio Son -->
+			<hr style="background: #fff;">
+		<section id="hakkimda">
+			<div id="container">
+				<div id="content">
+					<div class="row merkezle">
+					    <div class="col-sm">
+					      <a target="_blank" href="https://www.github.com/mirzakarahan"><i class="fa fa-github fa-5x"></i></a>
+					    </div>
+					     <div class="col-sm">
+					      <a target="_blank" href="https://www.facebook.com/mirzakarahan"><i class="fa fa-facebook-square fa-5x"></i></a>
+					    </div>
+					     <div class="col-sm">
+					      <a target="_blank" href="https://www.instagram.com/mirzaakarahan"><i class="fa fa-instagram fa-5x"></i></a>
+					    </div>
+					    
+				  </div>
+				</div>
+			</div>
+		</section>	
+		<footer>
+			<section class="merkezle">Copyright © Mirza KARAHAN 2018</section>
+		</footer>
+	</div>
+</body>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},3000);
+	});
+});
+</script>
+</html>
